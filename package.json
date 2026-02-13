@@ -1,0 +1,41 @@
+{
+  "name": "universal-oss-template",
+  "version": "1.0.0",
+  "description": "A comprehensive, enterprise-grade template for open source projects with best practices and modern tooling",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "release": "semantic-release",
+    "prepare": "husky"
+  },
+  "keywords": [
+    "template",
+    "oss",
+    "open-source",
+    "best-practices",
+    "semantic-release",
+    "commitlint"
+  ],
+  "author": "Rupesh Bisen",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rupeshbisen/universal-oss-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rupeshbisen/universal-oss-template/issues"
+  },
+  "homepage": "https://github.com/rupeshbisen/universal-oss-template#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^19.0.0",
+    "@commitlint/config-conventional": "^19.0.0",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "eslint": "^8.57.0",
+    "husky": "^9.0.0",
+    "prettier": "^3.2.0",
+    "semantic-release": "^23.0.0"
+  }
+}
