@@ -31,12 +31,14 @@ We are committed to providing a welcoming and inclusive environment. Please revi
 
 1. **Fork the repository** on GitHub
 2. **Clone your fork locally**
+
    ```bash
    git clone https://github.com/your-username/universal-oss-template.git
    cd universal-oss-template
    ```
 
 3. **Add upstream remote** for syncing
+
    ```bash
    git remote add upstream https://github.com/original-owner/universal-oss-template.git
    ```
@@ -126,18 +128,18 @@ All commits must follow the [Conventional Commits](https://www.conventionalcommi
 
 ### Commit Types
 
-| Type      | Purpose                                                           |
-| --------- | ----------------------------------------------------------------- |
-| `feat`    | A new feature                                                     |
-| `fix`     | A bug fix                                                         |
-| `docs`    | Documentation only changes                                        |
-| `style`   | Changes that don't affect meaning (formatting, semicolons, etc.) |
+| Type       | Purpose                                                          |
+| ---------- | ---------------------------------------------------------------- |
+| `feat`     | A new feature                                                    |
+| `fix`      | A bug fix                                                        |
+| `docs`     | Documentation only changes                                       |
+| `style`    | Changes that don't affect meaning (formatting, semicolons, etc.) |
 | `refactor` | Code change without feature addition or bug fix                  |
-| `perf`    | Code change that improves performance                             |
-| `test`    | Adding or updating tests                                          |
-| `chore`   | Changes to build process, dependencies, or tools                |
-| `ci`      | Changes to CI/CD configuration                                    |
-| `revert`  | Reverts a previous commit                                         |
+| `perf`     | Code change that improves performance                            |
+| `test`     | Adding or updating tests                                         |
+| `chore`    | Changes to build process, dependencies, or tools                 |
+| `ci`       | Changes to CI/CD configuration                                   |
+| `revert`   | Reverts a previous commit                                        |
 
 ### Examples
 
@@ -209,12 +211,14 @@ See migration guide: docs/auth-migration.md
 ### Before Submitting
 
 1. **Sync with latest main**
+
    ```bash
    git fetch upstream
    git rebase upstream/main
    ```
 
 2. **Run full test suite**
+
    ```bash
    npm run lint
    npm run lint:fix
@@ -230,6 +234,7 @@ See migration guide: docs/auth-migration.md
 ### Create Pull Request
 
 1. **Push to your fork**
+
    ```bash
    git push origin feat/my-feature-name
    ```

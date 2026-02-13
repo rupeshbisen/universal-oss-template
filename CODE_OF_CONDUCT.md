@@ -8,22 +8,22 @@ We are committed to providing a welcoming and inclusive environment for all cont
 
 Examples of behavior that contributes to creating a positive environment include:
 
-* Using welcoming and inclusive language
-* Being respectful of differing opinions, viewpoints, and experiences
-* Gracefully accepting constructive criticism
-* Focusing on what is best for the community
-* Showing empathy towards other community members
-* Being patient and helpful with new contributors
-* Respecting the time and effort of maintainers
+- Using welcoming and inclusive language
+- Being respectful of differing opinions, viewpoints, and experiences
+- Gracefully accepting constructive criticism
+- Focusing on what is best for the community
+- Showing empathy towards other community members
+- Being patient and helpful with new contributors
+- Respecting the time and effort of maintainers
 
 Examples of unacceptable behavior include:
 
-* The use of sexualized language or imagery and unwelcome sexual attention or advances
-* Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information without explicit permission
-* Other conduct which could reasonably be considered inappropriate in a professional setting
-* Discrimination or prejudice based on protected characteristics
+- The use of sexualized language or imagery and unwelcome sexual attention or advances
+- Trolling, insulting/derogatory comments, and personal or political attacks
+- Public or private harassment
+- Publishing others' private information without explicit permission
+- Other conduct which could reasonably be considered inappropriate in a professional setting
+- Discrimination or prejudice based on protected characteristics
 
 ## Enforcement
 

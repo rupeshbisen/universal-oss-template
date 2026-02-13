@@ -13,19 +13,19 @@ We take security seriously. If you discover a security vulnerability in this pro
 
 ### Do Not
 
-* Do not open a public GitHub issue for the security vulnerability
-* Do not disclose the vulnerability on social media
-* Do not share details about the vulnerability without permission
+- Do not open a public GitHub issue for the security vulnerability
+- Do not disclose the vulnerability on social media
+- Do not share details about the vulnerability without permission
 
 ### Do
 
 1. **Report to Security Team**: Send a detailed report to [security@example.com](mailto:security@example.com)
 
    Include:
-   * Description of the vulnerability
-   * Steps to reproduce
-   * Potential impact
-   * Suggested fix (if available)
+   - Description of the vulnerability
+   - Steps to reproduce
+   - Potential impact
+   - Suggested fix (if available)
 
 2. **Wait for Response**: We will acknowledge receipt within 48 hours and keep you updated on our investigation
 
@@ -35,34 +35,34 @@ We take security seriously. If you discover a security vulnerability in this pro
 
 When using this project template:
 
-* Keep dependencies up to date: `npm audit` and `npm update`
-* Review security advisories regularly
-* Use environment variables for sensitive data
-* Enable branch protection and require code reviews
-* Implement proper authentication and authorization
-* Use HTTPS for all communications
-* Encrypt sensitive data at rest and in transit
+- Keep dependencies up to date: `npm audit` and `npm update`
+- Review security advisories regularly
+- Use environment variables for sensitive data
+- Enable branch protection and require code reviews
+- Implement proper authentication and authorization
+- Use HTTPS for all communications
+- Encrypt sensitive data at rest and in transit
 
 ## Security Updates
 
-* Security updates will be released as patches (1.0.x)
-* Critical vulnerabilities will receive priority fixes
-* Security advisories will be posted alongside updates
+- Security updates will be released as patches (1.0.x)
+- Critical vulnerabilities will receive priority fixes
+- Security advisories will be posted alongside updates
 
 ## Vulnerability Management
 
 We use the following tools and practices:
 
-* Dependabot for dependency scanning
-* GitHub security advisories
-* Regular code reviews
-* Static code analysis
-* Community vulnerability reports
+- Dependabot for dependency scanning
+- GitHub security advisories
+- Regular code reviews
+- Static code analysis
+- Community vulnerability reports
 
 ## Contact
 
-* **Security Team**: [security@example.com](mailto:security@example.com)
-* **Maintainers**: [@project-maintainers](https://github.com/your-username)
+- **Security Team**: [security@example.com](mailto:security@example.com)
+- **Maintainers**: [@project-maintainers](https://github.com/your-username)
 
 ---
 

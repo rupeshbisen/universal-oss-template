@@ -95,23 +95,27 @@ universal-oss-template/
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone <repository-url>
    cd universal-oss-template
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Setup environment**
+
    ```bash
    cp .env.example .env
    # Edit .env with your configuration
    ```
 
 4. **Install git hooks**
+
    ```bash
    npm run prepare
    ```
@@ -188,6 +192,7 @@ All commits must follow [Conventional Commits](https://www.conventionalcommits.o
 ```
 
 **Types:**
+
 - `feat`: New feature
 - `fix`: Bug fix
 - `docs`: Documentation
@@ -199,6 +204,7 @@ All commits must follow [Conventional Commits](https://www.conventionalcommits.o
 - `ci`: CI/CD configuration
 
 **Examples:**
+
 ```bash
 git commit -m "feat(auth): implement JWT authentication"
 git commit -m "fix(api): resolve null pointer exception"
