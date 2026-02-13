@@ -35,13 +35,18 @@
     "release": "semantic-release"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "latest",
+    "@semantic-release/commit-analyzer": "latest",
+    "@semantic-release/git": "latest",
+    "@semantic-release/github": "latest",
+    "@semantic-release/release-notes-generator": "latest",
     "@commitlint/cli": "^19.0.0",
     "@commitlint/config-conventional": "^19.0.0",
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "husky": "^8.0.0",
     "prettier": "^3.1.0",
-    "semantic-release": "^23.0.0"
+    "semantic-release": "latest"
   },
   "commitlint": {
     "extends": [
