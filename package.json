@@ -21,7 +21,7 @@
   "author": "Your Name <your.email@example.com>",
   "license": "MIT",
   "engines": {
-    "node": ">=18.0.0",
+    "node": ">=20.8.1",
     "npm": ">=8.0.0"
   },
   "scripts": {
@@ -35,6 +35,10 @@
     "release": "semantic-release"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.0",
+    "@semantic-release/git": "^10.0.0",
+    "@semantic-release/github": "^10.0.0",
+    "@semantic-release/release-notes-generator": "^13.0.0",
     "@commitlint/cli": "^19.0.0",
     "@commitlint/config-conventional": "^19.0.0",
     "eslint": "^8.56.0",
